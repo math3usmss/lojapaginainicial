@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body{
+    background: linear-gradient(#ccc 70%, #fff);
+    background-attachment: fixed;
+}
+
+/*Topo*/
+
+#topo{
+    height: 50px;
+    background: #131921;
+}
+
+#logo{
+    display: inline;
+    float: left;
+    margin: 5px 0 0 40px;
+    color: #fff;
+}
+
+#barra_pesquisa{
+    float: left;
+    line-height: 50px;
+    margin-left: 250px;
+}
+
+#barra_pesquisa input[type="search"]{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px 0 0 10px;
+}
+
+#barra_pesquisa input[type="button"]{
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    background: #fff url(img/pesquisa.svg) no-repeat center;
+}
+
+#area_carrinho_perfil{
+    position: relative;
+}
+
+#perfil{
+    position: relative;
+    top: 12px;
+    left: 400px;
+}
+
+#carinho{
+    position: relative;
+    top: 11px;
+    left: 320px;
+}
+
+
+/*Topo*/
+
+#menu{
+    background: #232f3e;
+}
+
+#navegacao li{
+    float: left;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+#navegacao a{
+    color: #fff;
+}
+
+/*promocao*/
+
+#promocao{
+    height: 300px;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+
+#promocao h1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 250px;
+}
+
+#promocao span{
+    font-size: 150px;
+    line-height: 120px;
+}
+
+#texto_promocao{
+    font-size: 50px;
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 560px;
+}
+
+#link_promocao{
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    background: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 170px;
+    right: -650px;
+}
+
+/*categorias principais*/
+
+.titulos{
+    background-color: #232f3e;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+#categorias{
+    margin-left: 25px;
+}
+
+#categorias div{
+    box-sizing: border-box;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 25px 40px;
+}
+
+#categorias a img{
+    border: 5px solid #131921;
+    border-radius: 225px;
+}
+
+/*produto*/
+
+#lista_produtos{
+    margin-left: 40px;
+}
+
+#produto{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 60px;
+    background: #131921;
+    border-radius: 5px;
+    float: left;
+    padding: 8px;
+    position: relative;
+}
+
+#produto img{
+    border: 2px solid #131921;
+}
+
+#produto h3, h2{
+    color: #fff;
+}
+
+.desconto{
+    float: right;
+    background: orangered;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+/*rodape*/
+
+footer #rodape{
+    margin-top: 15px;
+    padding: 10px;
+    background: #232f3e;
+    color: #fff;
+    text-align: center;
+}
